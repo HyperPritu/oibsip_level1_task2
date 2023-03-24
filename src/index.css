@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+	--font-family: 'Poppins', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-family: var(--font-family);
+}
+
+body {
+	color: white;
+
+	/* ff 3.6+ */
+	background: -moz-radial-gradient(circle at 18% 29%, rgba(0, 25, 90, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+	/* safari 5.1+,chrome 10+ */
+	background: -webkit-radial-gradient(circle at 18% 29%, rgba(0, 25, 90, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+	/* opera 11.10+ */
+	background: -o-radial-gradient(circle at 18% 29%, rgba(0, 25, 90, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+	/* ie 10+ */
+	background: -ms-radial-gradient(circle at 18% 29%, rgba(0, 25, 90, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+	/* global 92%+ browsers support */
+	background: radial-gradient(circle at 18% 29%, rgba(0, 25, 90, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}

@@ -1,0 +1,30 @@
+.navbar{
+    padding: 2rem 8rem;
+}
+
+.navbar__container{
+    gap: 2rem;
+    align-items: center;
+}
+
+.logo{
+    flex-grow: 1;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar__links{
+    gap: 2rem;
+}
+
+.navbar__links-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.navbar__links-link:hover,
+.active-link{
+    color: white;
+}

@@ -1,0 +1,34 @@
+.flex {
+	display: flex;
+}
+
+.button {
+	display: block;
+	background: rgb(255, 136, 0);
+	border-radius: 5rem;
+	padding: 0.5rem 2rem;
+	font-weight: 600;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+section {
+	padding: 4rem 8rem;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.section__heading,
+.section__subheading{
+    text-align: center;
+}
+
+.section__heading{
+    font-size: 2rem;
+}
+
+.section__subheading{
+    margin-bottom: 2rem;
+}

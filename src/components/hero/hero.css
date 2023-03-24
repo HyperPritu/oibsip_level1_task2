@@ -1,0 +1,32 @@
+.hero{
+    height: 90vh;
+}
+
+.hero__container{
+    width: 100%;
+}
+
+.hero__body{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__body h2 {
+    font-size: 4rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+}
+
+.hero__body h1 {
+    font-size: 5rem;
+}
+
+.hero__body p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.hero__image{
+    width: 50%;
+}

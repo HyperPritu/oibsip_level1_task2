@@ -1,0 +1,23 @@
+.about__container{
+    gap: 8rem;
+}
+
+.about__body,
+.about__image{
+    width: 50%;
+}
+
+.about__body{
+    flex-direction: column;
+}
+
+.about__body .section__heading,
+.about__body .section__subheading{
+    text-align: left;
+}
+
+
+.about__content{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
